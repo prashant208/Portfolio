@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <a href=""><span class="brand-name">Prashant</span></a>
+            <div class="nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#skill">skills</a></li>
+                    <li><a href="#work">work</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-banner" id="home">
+        <div class="container">
+            <div class="intro">
+                <p id="rty">Hey,
+                    <script>
+                        var person = prompt("Please enter your name", "User");
+                        if (person != null) {
+                            document.getElementById("rty").innerHTML = "Hey " + person + "";
+                        }
+                    </script>
+                    <br> i'am <span>Prashant</span><br>web developer
+                </p>
+                <a href="#contact" target="_blank"><button class="contact-btn">Download CV</button></a>
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/prashant-raghuvanshi-270959169/" target="_blank"><img
+                            src="assets/linkedin.png" alt="linkedin"></a>
+                    <a href="https://github.com/prashant208" target="_blank"><img src="assets/github.png"
+                            alt="github"></a>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <img src="assets/banner-image.png" alt="" class="me">
+        </div>
+    </div>
+
+    <div class="main-about" id="about">
+        <span class="section-title">about</span><br>
+        <div class="container">
+            <div class="about">
+                <div class="col-left">
+                    <img src="assets/about-us.png" alt="">
+                </div>
+                <div class="col-right">
+                    <span class="intro-name">Let me Introduce myself</span>
+                    <p>
+                        I’m Prashant. . I am a web developer, and I'm very passionate and dedicated to my work.I have
+                        acquired the skills and knowledge necessary to make your project a success.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="skill-section" id="skill">
+        <span class="section-title">skills</span><br>
+        <div class="container">
+            <div class="skill">
+                <div class="col-left">
+                    <span class="intro-name1">Profesional Skills</span>
+                    <p>
+                        Technical Skills : Html, Css, Javascript, Nodejs, Expressjs, and Mongodb
+                        <br> Project management tools : Github.
+                        <br> Operating system : Windows.
+                    </p>
+                    <!--html skills-bar-->
+                    <div class="skills-data">
+                        <div class="skills-names">
+                            <i class="bx skills-icon bxl-html"></i>
+                            <span class="skills-name">HTML5</span>
+                        </div>
+
+                        <div class="skills-bar skills-html"></div>
+                        <div>
+                            <span class="skills-percentage"></span>
+                        </div>
+                    </div>
+                    <!--css skills-bar-->
+                    <div class="skills-data">
+                        <div class="skills-names">
+                            <i class="bx skills-icon bxl-css"></i>
+                            <span class="skills-name">CSS3</span>
+                        </div>
+
+                        <div class="skills-bar skills-css"></div>
+                        <div>
+                            <span class="skills-percentage"></span>
+                        </div>
+                    </div>
+                    <!--js skills-bar-->
+                    <div class="skills-data">
+                        <div class="skills-names">
+                            <i class="bx skills-icon bxl-js"></i>
+                            <span class="skills-name">JAVASCRIPT</span>
+                        </div>
+
+                        <div class="skills-bar skills-js"></div>
+                        <div>
+                            <span class="skills-percentage"></span>
+                        </div>
+                    </div>
+                    <!--nodejs skills-bar-->
+                    <div class="skills-data">
+                        <div class="skills-names">
+                            <i class="bx skills-icon bxl-nodejs"></i>
+                            <span class="skills-name">Nodejs</span>
+                        </div>
+
+                        <div class="skills-bar skills-nodejs"></div>
+                        <div>
+                            <span class="skills-percentage"></span>
+                        </div>
+                    </div>
+                    <!--expressjs skills-bar-->
+                    <div class="skills-data">
+                        <div class="skills-names">
+                            <i class="bx skills-icon bxl-expressjs"></i>
+                            <span class="skills-name">Expressjs</span>
+                        </div>
+
+                        <div class="skills-bar skills-expressjs"></div>
+                        <div>
+                            <span class="skills-percentage"></span>
+                        </div>
+                    </div>
+                    <!--mongodb skills-bar-->
+                    <div class="skills-data">
+                        <div class="skills-names">
+                            <i class="bx skills-icon bxl-mongodb"></i>
+                            <span class="skills-name">Mongodb</span>
+                        </div>
+
+                        <div class="skills-bar skills-mongodb"></div>
+                        <div>
+                            <span class="skills-percentage"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-right">
+
+                    <div class="container">
+                        <img src="assets/skill.jpg" alt="working...">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="work-section" id="work">
+        <span class="section-title">work</span><br>
+        <div class="work">
+
+            <div class="container bd-grid">
+
+                <div class="work-img">
+                    <img src="assets/pizza-app.png" alt="work">
+                    <div class="text">
+                        <h3>Pizza App</h3>
+                        <p>Website on Pizza App</p>
+                        <div class="btn">
+                            <a href="https://pizza-tracker-app.herokuapp.com/" target="_blank"><button
+                                    class="visit">Visit</button></a>
+                        </div>
+                    </div>
+                    <div class="overlay"></div>
+                </div>
+                <div class="work-img">
+                    <img src="assets/fixit-buddy.png" alt="work">
+                    <div class="text">
+                        <h3>Fixit Buddy</h3>
+                        <p>A doorstep service provider website</p>
+                        <div class="btn">
+                            <a href="http://fixit-buddy.herokuapp.com/" target="_blank"><button
+                                    class="visit">Visit</button></a>
+                        </div>
+                    </div>
+                    <div class="overlay"></div>
+                </div>
+                <div class="work-img">
+                    <img src="assets/todo-app.png" alt="work">
+                    <div class="text">
+                        <h3>Todo app</h3>
+                        <p>Managing tasks in local storage</p>
+                        <div class="btn">
+                            <a href="https://github.com/prashant208/todo-app" target="_blank"><button
+                                    class="visit">Visit</button></a>
+                        </div>
+                    </div>
+                    <div class="overlay"></div>
+                </div>
+                <div class="work-img">
+                    <img src="assets/carservices.png" alt="work">
+                    <div class="text">
+                        <h3>Carservices</h3>
+                        <p>Website on carservices</p>
+                        <div class="btn">
+                            <a href="https://github.com/prashant208/Carservice" target="_blank"><button
+                                    class="visit">Visit</button></a>
+                        </div>
+                    </div>
+                    <div class="overlay"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <h3>FOLLOW ME</h3>
+            <div class="footer-social">
+                <a href="https://github.com/prashant208" target="_blank"><i class="bx bxl-github"></i></a>
+                <a href="https://www.linkedin.com/in/prashant-raghuvanshi-270959169/" target="_blank"><i
+                        class="bx bxl-linkedin"></i></a>
+            </div>
+            <p>Copyright ©2019 All rights reserved | This template is made with by Prashant Raghuvanshi
+            </p>
+
+        </div>
+    </div>
+</body>
+
+</html>
